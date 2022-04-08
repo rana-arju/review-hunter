@@ -5,6 +5,7 @@ import Desboard from "./Components/Desboard/Desboard";
 import Blog from "./Components/Blog/Blog";
 import Header from './Components/Header/Header';
 import Reviews from './Components/Reviews/Reviews';
+import Error from './Components/Error/Error';
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path='/blog' element={<Blog />} />
+          <Route path='*' element={<Error />} />
         </Routes>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardGroup, Container } from 'react-bootstrap';
+import {  Container } from 'react-bootstrap';
 import useReviews from '../../hooks/useReviews/useReviews';
 import Review from '../Review/Review';
 import './Reviews.css';

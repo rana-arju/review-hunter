@@ -1,0 +1,11 @@
+.ratting{
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+.ratting-p{
+    display: inline;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}

@@ -1,13 +1,16 @@
 import React from 'react';
-import { Badge } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import Hero from '../Hero/Hero';
 
 const Home = () => {
     return (
         <div>
-    <h1>
-    Example heading <Badge bg="secondary">New</Badge>
-  </h1>        
-  </div>
+            <Hero />
+        <Container>
+            
+        </Container>
+        </div>
+        
     );
 };
 

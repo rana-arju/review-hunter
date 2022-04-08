@@ -1,0 +1,23 @@
+.hero-section{
+    background-color: #ADA9A8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.left-side,
+.right-side{
+    margin: 50px;
+}
+.right-side img{
+    border-radius: 20px;
+}
+.left-side h2
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.left-side p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}

@@ -1,0 +1,13 @@
+.review-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    border-bottom: 2px solid red;
+}

@@ -11,10 +11,6 @@
   -webkit-text-size-adjust: none;
 }
 
-html, body {
-  height: 100%;
-  overflow: hidden;
-}
 
 body {
   padding: 0;
@@ -28,14 +24,7 @@ label {
   cursor: pointer;
 }
 
-a {
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-  background: transparent;
-  text-decoration: none;
-  color: #000;
-}
+
 
 input, select, button, textarea {
   margin: 0;

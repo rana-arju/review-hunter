@@ -9,6 +9,7 @@
 }
 .right-side img{
     border-radius: 20px;
+    width: 100%;
 }
 .left-side h2
 {
@@ -20,4 +21,26 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .hero-section{
+    display: grid;
+    grid-template-columns:  1fr;
+}
+}
+@media screen and (max-width: 500px ){
+    .hero-section{
+    display: grid;
+    grid-template-columns:  1fr;
+}
+.left-side,
+.right-side{
+    margin: 20px;
+}
+.left-side h2{
+    font-size: 35px;
+}
+.left-side p{
+    font-size: 14px;
+}
 }

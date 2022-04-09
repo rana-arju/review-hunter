@@ -2,11 +2,11 @@
 ## Live Preview: https://review-hunter.netlify.app/
 # uses Technology
 
-- [x] React Js
-- [x] React Bootstrap
-- [x] CSS
-- [x] JSX
-- [x] React Icons
+* React Js
+- React Bootstrap
+- CSS
+- JSX
+- React Icons
 # File Sturucture
 
 - [x] /src

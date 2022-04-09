@@ -25,3 +25,8 @@
     - [x] /images
     - [x] index.js
     - [x]  App.js
+# Here Create
+- One Home page
+- One Review page whare all clients review show
+- one desboard page whare two chart show
+- one blog page whare three quetion and answers show

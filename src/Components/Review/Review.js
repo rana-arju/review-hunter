@@ -10,6 +10,7 @@ const Review = ({review}) => {
             <Card.Body>
             <Card.Title>Name: {review.name}</Card.Title>
             <Card.Text>
+                <p>Buyer say: <strong>{review.review}</strong></p>
                 <p>E-mail: {review.email}</p>
             </Card.Text>
             </Card.Body>

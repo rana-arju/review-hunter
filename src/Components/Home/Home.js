@@ -22,6 +22,7 @@ const reviewItem = reviews.slice(0, 3);
                     <Card.Body>
                     <Card.Title>Name: {items.name}</Card.Title>
                     <Card.Text>
+                        <p>Buyer say: <strong>{items.review}</strong></p>
                         <p>E-mail: {items.email}</p>
                     </Card.Text>
                     </Card.Body>

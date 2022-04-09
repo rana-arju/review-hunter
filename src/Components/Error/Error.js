@@ -4,9 +4,7 @@ import "./Error.css";
 const Error = () => {
     return (
         <div>
-            <a href="https://codepen.io/uiswarup/full/wvqNWOY" target="_blank">
-  <header class="top-header">
-</header>
+
 
 {/* <!--dust particel--> */}
 <div>
@@ -44,7 +42,7 @@ const Error = () => {
 
 </section>
 
-  </a>
+  
         </div>
     );
 };

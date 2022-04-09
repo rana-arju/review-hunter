@@ -220,7 +220,14 @@ button {
   margin: 40px auto 0;
   text-align: center;
 }
-
+.e-nav a{
+    background-color: gray;
+    padding: 8px 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
 .e-nav__form {
   position: relative;
   height: 45px;
@@ -482,7 +489,7 @@ button {
   }
 }
 @media (max-width: 750px) {
-  body, html, {
+  body, html {
     max-height: 100vh;
   }
    .error__content {
